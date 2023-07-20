@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     path('', views.dashboard, name='dashboard'),
+    path('edit-profile/', views.edit_profile, name='edit-profile'),
     
     # path('login/', views.user_login, name='login')
     path('', include('django.contrib.auth.urls')),
