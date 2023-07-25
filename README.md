@@ -2,10 +2,9 @@
 
 ### Funtionalites
 
-#### Authentication - Done
+- Authentication - [X]
+- Social Auth (Google, Twitter) - [x]
+- Sahring Content on the Website - [x]
+- Tracking USer Action - [ ]
 
-#### Social Auth (Google, Facebook, Twitter) - Done
-
-#### Sahring Content on the Website - Almost dome
-
-#### Tracking USer Action
+To run - `python manage.py runserver_plus --cert-file cert.crt`
