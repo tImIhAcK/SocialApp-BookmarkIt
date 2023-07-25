@@ -4,8 +4,8 @@
 
 #### Authentication - Done
 
-#### Social Auth (Google, Facebook, Twitter) - Next
+#### Social Auth (Google, Facebook, Twitter) - Done
 
-#### Sahring Content on the Website
+#### Sahring Content on the Website - Almost dome
 
 #### Tracking USer Action
