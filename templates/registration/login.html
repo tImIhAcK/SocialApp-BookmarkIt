@@ -11,11 +11,25 @@
         {{ form.as_p }}
         <input type='hidden' name='next' value='{{ next }}' />
         <input type="submit" value="Login">
-        <p>
-            <a href="{% url "password_reset" %}">Forgotten your password?</a>
-        </p>
-        <p>
-            Don't have an account <a href="{% url "register" %}">register here</a>
-        </p>
+        <div class='extra'>
+            <p>
+                <a href="{% url "password_reset" %}">Forgotten your password?</a>
+            </p>
+            <p>
+                Don't have an account <a href="{% url "register" %}">register here</a>
+            </p>
+        </div>
+        <div class="social">
+            <ul>
+                <li class="twitter">
+                    <a href="{% url "social:begin" "twitter" %}">Sign in with Twitter</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="google">
+                    <a href="{% url "social:begin" "google" %}">Sign in with Google</a>
+                </li>
+            </ul>
+        </div>
     </form>
 {% endblock content %}

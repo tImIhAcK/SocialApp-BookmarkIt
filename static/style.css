@@ -99,3 +99,118 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #555;
 }
+
+/* Extra links styles */
+.extra {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.extra p {
+  margin-bottom: 10px;
+}
+
+.extra a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Social buttons styles */
+.social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social li {
+  margin: 10px 0;
+}
+
+.social li a {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.twitter a {
+  background-color: #1da1f2;
+}
+
+.google a {
+  background-color: #db4437;
+}
+
+/* Bookmark container */
+.bookmark {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex; /* Display the image and form on the same row */
+  flex-direction: row; /* Align the image and form horizontally */
+  align-items: flex-start; /* Align elements to the top of the container */
+}
+
+/* Bookmark heading */
+.bookmark > .bookmark-head {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Image preview */
+.bookmark > .image-preview {
+  max-width: 300px; /* Set the maximum width of the image */
+  height: auto;
+  margin-right: 20px; /* Add some spacing between image and form */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.bookmark > form {
+  flex: 1; /* Allow the form to occupy the remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+.bookmark > form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.bookmark > form input[type="text"],
+.bookmark > form input[type="url"],
+.bookmark > form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.bookmark > form textarea {
+  resize: vertical;
+}
+
+.bookmark > form input[type="submit"] {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.bookmark > form input[type="submit"]:hover {
+  background-color: #555;
+}
